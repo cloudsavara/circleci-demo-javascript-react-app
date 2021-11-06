@@ -12,3 +12,4 @@ jobs:
     steps:
       - checkout
       - run: node --version
+      - run: sh "Hellow world"
