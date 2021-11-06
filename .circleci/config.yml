@@ -12,4 +12,6 @@ jobs:
     steps:
       - checkout
       - run: node --version
-      - run: sh "Hellow world"
+      - run: 
+          name: Shell
+          command: echo "Hellow world"
